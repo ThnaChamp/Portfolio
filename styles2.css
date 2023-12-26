@@ -1,0 +1,1010 @@
+body {
+    background-color: #eeeeee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #004AAD;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    margin-right: 100px;
+    list-style-type: none;
+    margin: 0;
+    margin-top:30px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    font-size: 3rem;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 30px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .intro1 {
+    background-color: #fff;
+    color: #063D80;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+
+  .intro {
+    background-color: #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #063D80;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+
+  .intro2 {
+    height: 600px;
+    background-color: #fff;
+    padding: 20px;
+    color: #063D80;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 220px;
+  }
+  
+  .project {
+    color: #063D80;
+    font-size: 3rem;
+    align-items: center;
+  }
+  
+  .works {
+    background-color: #fff;
+    color: #063D80;
+    padding: 20px;
+  }
+  
+  .contact {
+    background-color: #fff;
+    color: #063D80;
+    padding: 20px;
+  }
+  
+  .intro-text {
+    flex: 1;
+    padding-right: 20px;
+    margin-left: 150px;
+    font-size: 2.9rem;
+  }
+
+  .project-text {
+    flex: 1;
+    padding-right: 20px;
+    font-size: 2.9rem;
+    text-align: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 50%; /* Adjust the width of the image container */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .pic-port img {
+    margin-left: 5px;
+    margin-top: 35px;
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+  }
+
+  hr{
+    background-color: #0759AB;
+    margin-top: 50px;
+    }
+  
+  .My{
+    color: rgb(141, 16, 16);
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+.education {
+  width: 50%; /* ขนาดของโรงเรียนใหญ่กว่าส่วนของ sidebar */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+}
+
+.school {
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 2.4rem;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  margin-top: 35px;
+  justify-content: center;
+  text-decoration: none;  
+  width: 50%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-content {
+  background-image: url('https://drive.google.com/uc?export=download&id=1YP3K7PljcnmdE3bNEjGi-rxlI6z8Xtq6');
+  list-style-type: none;
+  margin-right: 50px;
+  width: 1200px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 5px solid #5b81af;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  height: 400px;
+   /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+  display: flex;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: filter 0.5s ease;
+}
+
+.sidebar a {
+  font-size:  4rem ;
+  font-weight: bold; /* ทำให้ข้อความเป็นตัวหนา */
+  margin-bottom: 5px;
+  color: #0759AB;
+}
+.sidebar b {
+  font-size:  2rem ;
+  margin-bottom: 5px;
+  color: #0759AB;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer; /* เปลี่ยนรูปแบบของเมาส์เป็นแถบ */
+}
+
+/* ข้อความที่เป็นลิงก์เมื่อโฮเวอร์จะเปลี่ยนสี */
+a:hover {
+  color: rgb(73, 117, 198);
+}
+
+.gpx img {
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 5px solid #4478b7;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 35px;
+  max-width: 100%;
+  width: 1000px;
+  height: auto;
+}
+
+.tran-pic img{
+width: 2000px;
+}
+
+
+    body {
+      position: relative;
+      min-height: 100vh; /* ความสูงของหน้าเว็บ 100% ของ viewport */
+      padding-bottom: 60px; /* เพิ่มระยะข้างล่างของ body เพื่อป้องกันเว้นว่างเมื่อ Footer ขึ้นบนไป */
+    }
+  
+  .expr{
+    margin-top: 0 auto;
+    font-size: 2.5rem
+  }
+
+  .intro-text a{
+   margin-top: 10opx;
+  }
+
+  .project-text img{
+    width: 100px;
+  }
+
+  .project-{
+    justify-content: center;
+    text-decoration: none;  
+    width: 33.3333333333333333333333333333333333333333%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+    background-size: cover;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #063D80;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-content0{
+    background-image: url('https://drive.google.com/uc?export=download&id=1RVPPLZl5EIZlae1Hiq12omnPNgjpUb4v');
+    list-style-type: none;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 5px solid #5b81af;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    height: 400px;
+     /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+    background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+    transition: filter 0.5s ease;
+  }
+
+  .project-content1{
+    background-image: url('https://drive.google.com/uc?export=download&id=1e4FhwHM-Fiv5eIz5lLzbjJ6ytr-LmFvn');
+    list-style-type: none;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 5px solid #5b81af;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    height: 400px;
+     /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+    background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+    transition: filter 0.5s ease;
+  }
+
+  .project-content2{
+    background-image: url('https://drive.google.com/uc?export=download&id=1SeShfO6nSfu29sD6AeDXMPRau-ix5LKT');
+    list-style-type: none;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 5px solid #5b81af;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    height: 400px;
+     /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+    background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+    transition: filter 0.5s ease;
+  }
+
+  .project-content0:hover {
+    filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+  }
+  .project-content1:hover {
+    filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+  }
+
+  .project-content2:hover {
+    filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+  }
+
+  .sidebar-content:hover{
+    filter:brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+  }
+
+.color-project{
+  color: #eeeeee;
+}
+
+.pic-cact img {
+  margin-top: 5px;
+  align-items: center;
+  margin-bottom: 60px;
+  max-width: 100%;
+  width: 2900px;
+  height: auto;
+}
+
+.pic-rfid img {
+  margin-top: 5px;
+  align-items: center;
+  margin-bottom: 60px;
+  max-width: 100%;
+  width: 2000px;
+  height: auto;
+}
+
+.objective {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.objective1{
+  margin-right: 150px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  font-size: 2rem;
+}
+
+.sidebar1 {
+  justify-content: center;
+  text-decoration: none;  
+  width: 30%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar1 img{
+  margin-right: 300px;
+width: 1000px;
+}
+
+.NH {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.NH1 {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.img-cact{
+  list-style-type: none;
+  width: 700px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+  background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+  transition: filter 0.5s ease;
+}
+
+.img-cact1{
+  margin-left: 30px;
+  list-style-type: none;
+  width: 550px;
+  text-align: center;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+  transition: filter 0.5s ease;
+}
+
+.img-rfid{
+  margin-left: 30px;
+  list-style-type: none;
+  width: 550px;
+  text-align: center;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+  transition: filter 0.5s ease;
+}
+
+.img-ioi{
+  margin-left: 30px;
+  list-style-type: none;
+  width: 650px;
+  text-align: center;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+  transition: filter 0.5s ease;
+}
+
+.img-rfid1{
+  margin-left: 30px;
+  list-style-type: none;
+  width: 430px;
+  text-align: center;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+  transition: filter 0.5s ease;
+}
+
+.project-1{
+  justify-content: center;
+  text-decoration: none;  
+  width: 25%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+}
+
+
+.intro4 {
+  background-color: #eeeeee;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+}
+
+.intro5 { 
+  background-color: #eeeeee;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+  margin-bottom: 230px;
+}
+
+.A {
+  margin-right: 30px;
+  text-decoration: none;  
+  width: 60%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  background-color: #ffffff;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.B {
+  text-decoration: none;  
+  width: 40%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  background-color: #ffffff;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.GRAY {
+  padding-right: 20px;
+  padding-left: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.intro-text1 {
+  flex: 1;
+  padding-right: 20px;
+  margin-left: 60px;
+  margin-right: 50px;
+  font-size: 2.9rem;
+}
+
+.objective p{
+  text-align: justify; /* ทำให้ตัวอักษรกระจายชิดซ้ายขวา */
+  text-indent: 50px; /* กำหนดการย่อหน้า */
+  margin: 0; /* ลบ margin ที่ถูกกำหนดเริ่มต้นของ <p> */
+}
+
+.C {
+  height: 450px;
+  margin-right: 30px;
+  text-decoration: none;  
+  width: 30%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  background-color: #ffffff;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.D {
+  height: 450px;
+  text-decoration: none;  
+  width: 50%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #063D80;
+  background-color: #ffffff;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+.E {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* จัดวางไปทางซ้าย */
+  height: 450px;
+  text-decoration: none;  
+  width: 20%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #063D80;
+  border-radius: 10px;
+}
+
+.OB1{
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  color: #063D80;
+  display: flex;
+  font-size: 2rem;
+  margin-right: 150px;
+}
+
+.text-{
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #063D80;
+  display: flex;
+  align-items: center;
+  font-size: 2.1rem;
+  margin-left: 20px;
+  align-items: center;
+  background-size: cover;
+  text-align: justify; /* ทำให้ตัวอักษรกระจายชิดซ้ายขวา */
+}
+
+
+.img-cact2{
+  margin-left: 30px;
+  list-style-type: none;
+  width: 530px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+}
+
+.intro-text3{
+  margin-left: 50px;
+  font-size: 2.5rem;
+}
+
+    .contact1 {
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    /* ให้รูปภาพเป็นวงกลม */
+    .contact1 img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+  footer {
+  font-size: 1.5rem;
+  text-align: center;
+  height: 200px;
+  background-color: #004AAD; /* สีพื้นหลังของ Footer */
+  color: white; /* สีข้อความของ Footer */
+  padding: 20px; /* การเพิ่มระยะห่างภายในของ Footer */
+  position: absolute; /* ตำแหน่ง Footer เป็น absolute */
+  bottom: 0; /* ตำแหน่งที่ด้านล่างของหน้าจอ */
+  width: 100%; /* ความกว้างของ Footer */
+    }
+
+    .C1 {
+      height: 450px;
+      margin-right: 30px;
+      text-decoration: none;  
+      width: 28%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+      background-size: cover;
+      color: #fff;
+      box-sizing: border-box;
+      padding: 20px;
+      color: #063D80;
+      background-color: #ffffff;
+      color: #063D80;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+    }
+    
+    .D1 {
+      height: 450px;
+      text-decoration: none;  
+      width: 72%; /* ขนาดของ sidebar ให้เล็กกว่าโรงเรียน */
+      background-size: cover;
+      color: #fff;
+      box-sizing: border-box;
+      padding: 20px;
+      color: #063D80;
+      background-color: #ffffff;
+      color: #063D80;
+      display: flex;
+      border-radius: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .detail {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    /* ให้รูปภาพเป็นวงกลม */
+    .detail img {
+      width: 250px;
+      border-radius: 50%;
+    }
+
+    .back-button {
+      font-size: 2.1rem;
+      width: 25px;
+      height: 50px;
+      padding: 10px 20px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #393939;
+    }
+
+    .act {
+      margin-top: 30px;
+      padding: 20px;
+      align-items: center;
+    }
+
+    
+    .act1 {
+      padding: 20px;
+      align-items: center;
+    }
+
+    .act2 {
+      margin-bottom: 200px;
+      padding: 20px;
+      align-items: center;
+    }
+
+    .act-in {
+      height: 470px;
+      background-color: #fff;
+      padding: 20px;
+      color: #063D80;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+
+
+    .ACT1{
+      background-image: url('https://drive.google.com/uc?export=download&id=1cUDIATeksRMtEhhtX8vVHF7jVNm3sVME');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 1.8rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT2{
+      background-image: url('https://drive.google.com/uc?export=download&id=1FqTDTmoJOB1aAGL-Nwp9x4x8ncrg4vmZ');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 2.5rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+.ACT3{
+      background-image: url('https://drive.google.com/uc?export=download&id=1vVkPKJ1DK4g1-oUkS7bP0Snzep0ubqCi');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 2.5rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT4{
+      background-image: url('https://drive.google.com/uc?export=download&id=1AmBycMphI3dIKYXebhlDBgiWwtT9H9xW');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 2.5rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT5{
+      background-image: url('https://drive.google.com/uc?export=download&id=1UJp1MB3WXGS0k3EvIEuEnVvdNMQR4ghf');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 2.5rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT6{
+      background-image: url('https://drive.google.com/uc?export=download&id=1IyLU8A_WCDdFcjU0eRMCSJMqRi4CiWsu');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 2.5rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT7{
+      background-image: url('https://drive.google.com/uc?export=download&id=1-Qh0XoePx0eOwzjwfl3kYiIuwuw1jI2J');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 2.5rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT8{
+      background-image: url('https://drive.google.com/uc?export=download&id=1s6p_muCNRi4BOEdv4lHlsJ0Y_Z5ifiFL');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 1.9em;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+    .ACT9{
+      background-image: url('https://drive.google.com/uc?export=download&id=1B1qoABM147jxvpiGlufW0Rrz1_KXVreU');
+      list-style-type: none;
+      width: 800px;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      border: 5px solid #5b81af;
+      border-radius: 10px;
+      font-size: 1.9rem;
+      height: 400px;
+       /* ทำให้ความสูงของ sidebar-content เท่ากับส่วนที่มีข้อมูลการศึกษา */
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      background-size: cover; /* ให้รูปภาพขยายเต็มพื้นที่ของกล่อง */
+      background-position: center; /* จัดตำแหน่งให้รูปภาพตรงกลาง */
+      transition: filter 0.5s ease;
+    }
+
+    .ACT1:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    }
+    .ACT2:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    } 
+    .ACT3:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    } 
+    .ACT4:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    } 
+    .ACT5:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    } 
+    .ACT6:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    } 
+    .ACT7:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    } 
+    .ACT8:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    }
+    .ACT9:hover {
+      filter: brightness(50%); /* ใช้ filter เพื่อเปลี่ยนสีของรูป */
+    }
